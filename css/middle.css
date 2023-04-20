@@ -1,0 +1,104 @@
+.middle {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+.list {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+.ListItem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+.ListText {
+    margin: 0 auto;
+}
+.ListIcon {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.VissionMission {
+    margin: 70px 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;   
+}
+.VissionBlock {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.Vission {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.VissionIco {
+    width: 47px;
+    height: 6;
+    margin: 30px 0;
+}
+.VissionImage {
+    width: 100%;
+    height: auto;
+}
+.VissionTitle {
+    font-weight: bold;
+}
+.Activities {
+    width: 100%;
+    background-color: #EDEDED;
+}
+.ActivitiesBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+.SeedBlocks {
+    display: flex;
+}
+.SeedBlock {
+    display: flex;
+    max-height: 357px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+}
+.SeedIcon {
+    max-width: 100%;
+    height: auto;
+}
+.SeedIcons {
+    width: 183px;
+    margin: 30px 0;
+}
+.SeedText {
+    text-align: center;
+    width: 100%;
+    height: 52px;
+    font-size: 18px;
+}
+.SeedTitle {
+    color: green;
+    font-size: 24px;
+}
+.ActivitiesTitle {
+    width: 100%;
+    font-size: 64px;
+    text-align: center;
+}

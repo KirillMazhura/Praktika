@@ -1,0 +1,56 @@
+.FooterTop {
+    margin: auto auto;
+    background-color: #2D3F45;
+}
+.FooterTopBlock {
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+}
+.FooterListItem {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.FooterBlock {
+    margin: auto 0;
+}
+.FooterList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.FooterListSoc {
+    display:flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.footer {
+    max-width: 1920px;
+}
+.FooterBottom {
+    max-width: 1920px;
+    height: 51px;
+    background-color: #324950;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    font-size: 14px;
+    color: #B9B9B9;
+    margin: 0;
+    padding: 0;
+}
+.right {
+    width: 20%;
+}
+.left {
+    width: 50%;
+}

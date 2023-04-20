@@ -1,0 +1,281 @@
+body {
+    /* overflow-x: hidden; */
+    font-family: 'Roboto';
+    color: #324950;
+    padding:0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 0;
+    margin: 0 auto;
+}
+.header {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #FFFAFA;
+}
+.menubtn {
+    display: none;
+    width: 10%;
+}
+.head {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    width: 75%;
+    height: auto;
+}
+.logo {
+    width: 100%;
+    height: auto;
+}
+.LogoBlock {
+    width: 20%;
+}
+.san{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.search {
+    width: 100%;
+    height: 29px;
+    border-bottom: solid 1px black;
+    background: rgba(0,0,0,0);
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+
+}
+.SearchInput{
+    background: transparent;
+    border: 0;
+    width: 1100%;
+    
+}
+.SearchInput:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.ico_search {
+    margin: 3px 0;
+    max-width: 100%;
+    height: auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-shadow: 0 2px 20px;
+    width: 100%;
+    height:26px;
+    padding: 0;
+    margin-right: auto;
+}
+.NavigationItem {
+    color: #324950;
+}
+a {
+    color: #324950;
+}
+a:hover {
+    color: #324950;
+    text-decoration: none;
+}
+a.BottomLink {
+    color: white;
+}
+.middle {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.ReturnBlock{
+    display: flex;
+    flex-direction: row;
+    max-width: 185px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.ReturnText {
+    color: #57984C;
+    font-size: 14px;
+}
+.BackArrow1 {
+    height: 8px;
+}
+.Title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: auto;
+    max-width: 526px;
+    width: 100%;
+}
+.TitleText {
+    font-size: 54px;
+}
+.TopText {
+    font-weight: bold;
+    font-size: 54px;
+}
+.BottomText {
+    color: #57984C;
+    font-weight: bold;
+    font-size: 54px;
+}
+.union {
+    max-width: 47px;
+    width: 100%;
+}
+.QualityBlock {
+    margin: 20px 0;
+    max-width: 498px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+.QualityText {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+.RedTomato {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin-right: 20px;
+}
+.CharacteristicsBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.CharacteristicsTitleText{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    color: green;
+}
+.GreenLine {
+    max-width: 183px;
+    width: 100%;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.CharacteristicsText {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+.CharacteristicsText2 {
+    list-style: url(C:\Users\morzh\Desktop\Praktika\img\tomatoonemarker.png);
+    color: green;
+}
+.CharacteristicsText2 span {
+    color: #324950;
+    font-size: 17px;
+}
+.Characteristics2 {
+    padding-left: 15px;
+}
+.Characteristics {
+    padding-left: 0;
+}
+.ImageBlock {
+    max-width: 540px;
+    width: 100%;
+    position: relative;
+}
+.TomatoImage {
+    max-width: 100%;
+    height: auto;
+}
+.DownloadButton {
+    align-items: end;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    font-size: 17px;
+    max-width: 225px;
+    height: 55px;
+    width: 100%;
+    margin-left: auto;
+}
+.FooterTop {
+    margin: auto auto;
+    background-color: #2D3F45;
+}
+.FooterTopBlock {
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+}
+.FooterListItem {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.FooterBlock {
+    margin: auto 0;
+}
+.FooterList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.FooterListSoc {
+    display:flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.footer {
+    max-width: 1920px;
+}
+.FooterBottom {
+    max-width: 1920px;
+    height: 51px;
+    background-color: #324950;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    font-size: 14px;
+    color: #B9B9B9;
+    margin: 0;
+    padding: 0;
+}
+.right {
+    width: 20%;
+}
+.left {
+    width: 50%;
+}
