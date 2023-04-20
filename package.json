@@ -1,5 +1,24 @@
 {
   "dependencies": {
+    "http-server": "^14.1.1",
+    "jquery": "^3.6.4",
     "jsearch": "^1.0.0"
-  }
+  },
+  "name": "agridera",
+  "version": "1.0.0",
+  "description": "empty",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillMazhura/Praktika.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirillMazhura/Praktika/issues"
+  },
+  "homepage": "https://github.com/KirillMazhura/Praktika#readme"
 }
