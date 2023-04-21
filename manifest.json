@@ -1,6 +1,7 @@
 {
     "name" : "Agridera shop",
     "short_name" : "Agridera",
+    "description" : "just a shop",
     "icons" : [
         {
             "src" : "/img/icons/app-icon-48x48.png",
@@ -37,5 +38,9 @@
             "type" : "image/png",
             "sizes" : "512x512"
         }
-    ]
+    ],
+    "start_url" : "index.html",
+    "display" : "default",
+    "background_color" : "red",
+    "theme_color" : "black"
 }
