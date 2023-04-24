@@ -40,7 +40,7 @@
         }
     ],
     "start_url" : "index.html",
-    "display" : "default",
+    "display" : "standalone",
     "background_color" : "red",
     "theme_color" : "black"
 }
