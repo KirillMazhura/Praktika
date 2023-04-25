@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Столиці Європи
+        </title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
+    </head>
+    <body>
+        <button><a href="index.html">back</a></button>
+        <div id="countries" >
+            <ul>
+                <li v-for="c in country">
+                    {{ c }}
+                </li>
+            </ul>
+        </div>
+            <script>
+                var countries = new Vue({
+                    el: '#countries',
+                    data: {
+                        country: [],
+                    }
+                });
+                fetch("https://restcountries.com/v3.1/region/europe")
+                   .then(res => res.json())
+                   .then(data => {
+                       data.forEach(country => {
+                           countries.country.push(country.capital[0]);
+                           console.log(countries.country);
+                       });
+                   })
+            </script>
+    </body>
+</html>
