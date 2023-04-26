@@ -1,11 +1,11 @@
 var app = new Vue({
     el:".container2",
     data:{
-        products:[{'id':1, 'title':'TAG 1000 (TAG 853)','image':'image1.jpg', 'short_text': 'Kiwi Gold', 'desc': 'Full description'},
-        {'id':2, 'title':'TAG 1001 (TAG 855)','image':'image2.jpg', 'short_text': 'Kiwi Green', 'desc': 'Full description'},
-        {'id':3, 'title':'TAG 1002 (TAG 809)','image':'image3.jpg', 'short_text': 'Kiwi Green', 'desc': 'Full description'},
-        {'id':4, 'title':'TAG 1003 (TAG 834 )','image':'image4.jpg', 'short_text': 'Actinidia', 'desc': 'Full description'},
-        {'id':5, 'title':'TAG 1004 (TAG 848)','image':'image5.jpg', 'short_text': 'Zespri Red Kiwi', 'desc': 'Full description'}],
+        products:[{'id':1, 'title':'TAG 1000 (TAG 789)','image':'image1.jpg', 'short_text': 'Hala', 'desc': 'Full description'},
+        {'id':2, 'title':'TAG 1001 (TAG 855)','image':'image2.jpg', 'short_text': 'Red Scarlett', 'desc': 'Full description'},
+        {'id':3, 'title':'TAG 1002 (TAG 809)','image':'image3.jpg', 'short_text': 'Queen Anna', 'desc': 'Full description'},
+        {'id':4, 'title':'TAG 1003 (TAG 834 )','image':'image4.jpg', 'short_text': 'Andrett', 'desc': 'Full description'},
+        {'id':5, 'title':'TAG 1004 (TAG 848)','image':'image5.jpg', 'short_text': 'Madejra', 'desc': 'Full description'}],
         product:[],
         cart:[],
         contactFields:[],

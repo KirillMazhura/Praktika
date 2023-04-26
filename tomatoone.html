@@ -9,8 +9,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/tomatoone.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
         <title>
-            TomatoOne
+            Potato
         </title>
     </head>
     <body>
@@ -41,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="middle">
+            <div class="middle container2">
                 <a href="tomatoall.html">
                     <div class="ReturnBlock">
                         <img class="BackArrow1" src="img/tomatoonearrow1.png" alt="BackArrow">
@@ -55,10 +56,10 @@
                         <div class="Title">
                             <div class="TitleText">
                                 <h1 class="TopText">
-                                    <p>TAG 1002 (TAG 809)</p>
+                                    <p>{{product.title}}</p>
                                 </h1>
                                 <h1 class="BottomText">
-                                    <p>Tomato Determinate Red Standard Round</p>
+                                    <p>{{product.short_text}}</p>
                                 </h1>
                             </div>
                             <img class="union" src="img/Union.svg" alt="Marks">
@@ -118,7 +119,7 @@
                     
                     <div class="col">
                         <div class="ImageBlock">
-                            <img class="TomatoImage" src="img/tomatooneimage.jpg" alt="Tomato">
+                            <img class="TomatoImage" :src="'img/'+product.image" alt="Tomato">
                             <button class="DownloadButton">
                                 <img src="img/tomatoonepdfico.png" alt="">
                                 <span>Download PDF</span>
@@ -191,5 +192,6 @@
                     <p class="text">AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</p>
                 </div>
             </div>
+            <script src="C:\Users\morzh\Desktop\Praktika\js\main.js"></script>
     </body>
 </html>

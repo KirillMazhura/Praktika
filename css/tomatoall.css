@@ -4,6 +4,7 @@ body {
     color: #324950;
     padding:0;
     margin: 0;
+    background-color: #f8ece0;
 }
 .container {
     max-width: 1920px;
@@ -14,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
     width: auto;
-    background-color: #FFFAFA;
+    background-color: #f8ece0;
 }
 .menubtn {
     display: none;
@@ -129,7 +130,7 @@ a.BottomLink {
 }
 .Block2 {
     height: auto;
-    background-color: #FFFAFA;
+    background-color: #f8ece0;
     margin: 0 auto;
 }
 .blackline1 {
