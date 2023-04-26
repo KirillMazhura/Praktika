@@ -259,3 +259,14 @@ a.Telephone {
 a.Telephone:hover {
     color: green;
 }
+.table {
+    width: 50%;
+    border: grey;
+    border-radius: 10px;
+}
+.contactusimage {
+    width: 30%;
+}
+.linktext {
+    color: red;
+}

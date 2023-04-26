@@ -45,8 +45,27 @@
                     </div>
                     <img class="union" src="img/Union.svg" alt="Marks">
                 </div>
-                <div v-for="pr in cart">
-                    <p>{{pr}}</p>
+                <div class="test">
+                    <table class="table" v-if="cart!=''">
+                        <tr>
+                            <th>
+                                Product image
+                            </th>
+                            <th>
+                                Product name
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                        <tr v-for="c in cart">
+                            <td><img :src="'img/'+c.image" alt="123" class="contactusimage"></td>
+                            <td>{{c.short_text}}</td>
+                            <td>
+                                <a class="linktext" href="#" @click.prevent="removeFromCart(c.id)">X</a>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="row contactblock">
                     <div class="col-sm-5">
