@@ -120,10 +120,14 @@
                     <div class="col">
                         <div class="ImageBlock">
                             <img class="TomatoImage" :src="'img/'+product.image" alt="Tomato">
-                            <button class="DownloadButton">
-                                <img src="img/tomatoonepdfico.png" alt="">
-                                <span>Download PDF</span>
-                            </button>
+                            <a href="#" @click.prevent="addToCart(product.id);" v-if="btnVisible==0">
+                                <button class="DownloadButton">
+                                    <p>Add to cart</p>
+                                    <a href="contactus.html"  v-if="btnVisible==1">
+                                        <p>Go to cart</p> 
+                                    </a>
+                                </button>
+                            </a>
                         </div>
                         <div class="CharacteristicsBlock">
                             <h1 class="CharacteristicsTitleText">Cycle</h1>

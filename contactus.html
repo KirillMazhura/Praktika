@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/contactus.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
         <title>
             Contact
         </title>
@@ -37,12 +38,15 @@
                 </div>
                 <img class="banner" src="img/contactusbanner.jpg" alt="banner">
             </div>
-            <div class="middle">
+            <div class="middle container2">
                 <div class="Title">
                     <div class="TitleText">
                         Contact us
                     </div>
                     <img class="union" src="img/Union.svg" alt="Marks">
+                </div>
+                <div v-for="pr in cart">
+                    <p>{{pr}}</p>
                 </div>
                 <div class="row contactblock">
                     <div class="col-sm-5">
@@ -192,5 +196,6 @@
                     <p class="text">AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</p>
                 </div>
         </div>
+        <script src="js/main.js"></script>
     </body>
 </html>
